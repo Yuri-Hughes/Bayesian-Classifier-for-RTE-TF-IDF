@@ -2,33 +2,37 @@
 
 # Classifier E/NE Representation
 
-Este projeto implementa um classificador de representação E/NE utilizando dados do corpus ASSIN (assin-ptbr-train.xml e assin-ptbr-test.xml). O classificador utiliza técnicas de processamento de linguagem natural e aprendizado de máquina para prever se uma sentença implica outra.
+This project implements a classifier for E/NE representation using data from the ASSIN corpus (`assin-ptbr-train.xml` and `assin-ptbr-test.xml`). The classifier utilizes TF- IDF representation and a Bayesian Method from machine learning to predict if one sentence entails another.
 
-## Estrutura do Projeto
-project/
-│
-├── data_processing.py
-├── vectorization.py
-├── model.py
-├── main.py
-├── requirements.txt
-└── README.md
+## Prerequisites
+
+Make sure you have [Conda](https://docs.conda.io/en/latest/miniconda.html) installed on your system.
+
+## Environment Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   
+   git clone <url-of-your-repository>
+   cd project
+   
+2. **Create a Conda env and install dependencies:**
+
+  ```bash
+  conda create --name classifier_env --file requirements.txt
+  conda activate classifier_env
+
+3. **Install NLTK Stopwords:**
+
+  ```bash
+  python -c "import nltk; nltk.download('stopwords')"
+
+4. **To run the project use:"**
+  ```bash
+   python main.py
 
 
-## Pré-requisitos
 
-Certifique-se de ter o [Conda](https://docs.conda.io/en/latest/miniconda.html) instalado em seu sistema.
 
-## Configuração do Ambiente
-
-1. **Clone o repositório:**
-
-```bash
-git clone <url-do-repositorio>
-cd project
-
-conda create --name classifier_env --file requirements.txt
-conda activate classifier_env
-
-python -c "import nltk; nltk.download('stopwords')"
-
+ 
