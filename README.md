@@ -32,7 +32,8 @@ Make sure you have [Conda](https://docs.conda.io/en/latest/miniconda.html) insta
 
 4. **To run the project use:"**
   ```bash
-   python main.py```
+   python main.py
+```
 
 
 
