@@ -21,16 +21,16 @@ Make sure you have [Conda](https://docs.conda.io/en/latest/miniconda.html) insta
 
   ```bash
   conda create --name classifier_env --file requirements.txt
-  conda activate classifier_env
+  conda activate classifier_env```
 
 3. **Install NLTK Stopwords:**
 
   ```bash
-  python -c "import nltk; nltk.download('stopwords')"
+  python -c "import nltk; nltk.download('stopwords')"```
 
 4. **To run the project use:"**
   ```bash
-   python main.py
+   python main.py```
 
 
 
