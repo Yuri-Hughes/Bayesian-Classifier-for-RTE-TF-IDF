@@ -13,7 +13,7 @@ Make sure you have [Conda](https://docs.conda.io/en/latest/miniconda.html) insta
 
    ```bash
    
-   git clone <url-of-your-repository>
+   git clone https://github.com/Yuri-Hughes/Bayesian-Classifier-for-RTE-TF-IDF
    cd project
    
 2. **Create a Conda env and install dependencies:**
