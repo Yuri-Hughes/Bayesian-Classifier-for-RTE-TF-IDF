@@ -1,6 +1,5 @@
 # Bayesian-Classifier-for-RTE-TF-IDF
 
-# Classifier E/NE Representation
 
 This project implements a classifier for E/NE representation using data from the ASSIN corpus (`assin-ptbr-train.xml` and `assin-ptbr-test.xml`). The classifier utilizes TF- IDF representation and a Bayesian Method from machine learning to predict if one sentence entails another.
 
